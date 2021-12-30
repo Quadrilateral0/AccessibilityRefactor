@@ -1,13 +1,16 @@
+/* Create a neutral workspace */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set the overall background color as a light grey */
 body {
     background-color: #d9dcd6;
 }
 
+/* Set style for entire header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Set style for h1 tag within header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Set letters "seo" within h1 tag as the same color as the background */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Set style for navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Define navigation list as without value */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Set orientation for navigation links */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Set style for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Set font-size for all paragraph text */
 p {
     font-size: 16px;
 }
 
+/* Set style and orientation for primary image below navigation */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,47 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Set orientation for main content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Set style and orientation for main content sections */
+.main-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set style for main content images */
+.main-section img {
+    max-height: 200px;
+}
+
+/* Set style and orientation for main content headers */
+.main-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set orientation for 1st and 3rd main sections */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Set orientation for 2nd main section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Set style and orientation for aside content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,72 +122,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Set style and orientation for aside content sections */
+.benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Set orientation for aside content headers */
+.benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Set orientation for aside content images */
+.benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.main-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-section img {
-    max-height: 200px;
-}
-
-.main-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Set style and orientation for footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -159,6 +149,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* Set style for footer header */
+.footer h4 {
     font-size: 20px;
 }
