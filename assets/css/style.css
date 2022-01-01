@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Set style for entire header */
+/* Set padding, font, font color, and background for entire header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,7 +18,7 @@ body {
     color: #ffffff;
 }
 
-/* Set style for h1 tag within header */
+/* Set font size for h1 tag within header and display elements horizontally */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -29,7 +29,7 @@ body {
     color: #d9dcd6;
 }
 
-/* Set style for navigation bar */
+/* Set orientation and style for navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,18 +38,18 @@ body {
     font-size: 20px;
 }
 
-/* Define navigation list as without value */
+/* Define navigation list as without bullet */
 .header nav ul {
     list-style-type: none;
 }
 
-/* Set orientation for navigation links */
+/* Set left margin for navigation links and display elements horizontally */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Set style for links */
+/* Set text color for links and remove link underline */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -87,12 +87,12 @@ p {
     color: #ffffff;
 }
 
-/* Set style for main content images */
+/* Set maximum image height for main content images */
 .main-section img {
     max-height: 200px;
 }
 
-/* Set style and orientation for main content headers */
+/* Set bottom margin and font size for main content headers */
 .main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -149,7 +149,7 @@ p {
     text-align: center;
 }
 
-/* Set style for footer header */
+/* Set font size for footer header */
 .footer h4 {
     font-size: 20px;
 }
